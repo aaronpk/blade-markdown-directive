@@ -1,0 +1,19 @@
+{
+  "name": "p3k/blade-markdown-directive",
+  "license": "CC0",
+  "authors": [
+    {
+      "name": "Aaron Parecki",
+      "url": "https://aaronparecki.com"
+    }
+  ],
+  "require": {
+    "php": ">5.4",
+    "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*",
+  },
+  "autoload": {
+    "psr-4": {
+      "p3k\\Laravel\\": "src/Laravel/"
+    }
+  }
+}
