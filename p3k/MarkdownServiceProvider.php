@@ -1,5 +1,5 @@
 <?php
-namespace p3k\Laravel;
+namespace p3k;
 
 use Illuminate\Support\ServiceProvider;
 use Blade;

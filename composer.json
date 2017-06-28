@@ -13,7 +13,7 @@
   },
   "autoload": {
     "psr-4": {
-      "p3k\\Laravel\\": "src/Laravel/"
+      "p3k\\": "src/"
     }
   }
 }
