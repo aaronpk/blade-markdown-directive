@@ -14,7 +14,7 @@ class MarkdownServiceProvider extends ServiceProvider
     public function boot()
     {
         Blade::directive('markdown', function($expression) {
-            return '<?php echo \p3k\Laravel\MarkdownServiceProvider::md()->parse('.$expression.'); ?>';
+            return '<?php echo \p3k\MarkdownServiceProvider::md()->parse('.$expression.'); ?>';
         });
     }
 
