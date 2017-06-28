@@ -12,8 +12,8 @@
     "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*"
   },
   "autoload": {
-    "files": [
-      "src/MarkdownServiceProvider.php"
-    ]
+    "psr-4": {
+      "p3k\\": "src/"
+    }
   }
 }
