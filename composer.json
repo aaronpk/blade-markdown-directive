@@ -4,12 +4,13 @@
   "authors": [
     {
       "name": "Aaron Parecki",
-      "url": "https://aaronparecki.com"
+      "homepage": "https://aaronparecki.com"
     }
   ],
   "require": {
-    "php": ">5.4",
-    "illuminate/support": "5.*"
+    "php": ">7.2",
+    "cebe/markdown": "^1.2",
+    "illuminate/support": "^6.0"
   },
   "autoload": {
     "psr-4": {
